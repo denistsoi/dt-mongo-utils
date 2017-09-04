@@ -32,6 +32,7 @@ describe('dt-mongo-utils', () =>{
         expect(err).to.be.null;
         done()
       })
+
     })();
   });
 
@@ -56,7 +57,8 @@ describe('dt-mongo-utils', () =>{
   after(() => {
     Tester.remove({}, err => {
       if (err) {
-
+        console.log(err)
+        expect(err).to.be.null;
       }
     })
   })
