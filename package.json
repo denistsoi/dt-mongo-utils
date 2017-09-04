@@ -1,13 +1,13 @@
 {
   "name": "dt-mongo-utils",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "mongoose helper utility functions",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha -b -t 30000 -w -R spec tests.js"
+    "test": "mocha -b -t 30000 -w -R spec test/tests.js"
   },
   "keywords": [
     "helper",
